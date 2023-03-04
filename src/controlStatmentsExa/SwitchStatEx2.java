@@ -3,7 +3,7 @@ package controlStatmentsExa;
 public class SwitchStatEx2 {
 
 	public static void main(String[] args) {
-		byte name=80;    // if  input no is more than 127 then we have to do explicit narrowing
+		byte name=100;    // if  input no is more than 127 then we have to do explicit narrowing
 		switch(name) {
 		case 40:
 			System.out.println("its a 40");

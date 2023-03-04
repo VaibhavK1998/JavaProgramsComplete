@@ -18,6 +18,10 @@ public class ScannerExa1 {
    int sum=a+b;
    System.out.println("sum= "+sum);
 	//}
+
+		System.out.println("name");
+		String name= obj.nextLine();
+
    Scan();	
 }
 public static void Scan()	{

@@ -10,7 +10,9 @@ public class OneDimensionalArray {
 		
 	for(int a=0; a<10;a++) {// by using this for loop we can print total array
 		//for(int a=0; a<ar.length;a++)
-		System.out.println("ar["+a+"]="+ar[a]);//standard  syntax for prnting array index and its value
+		int k=ar[a];
+		System.out.println("k : "+k);
+		//System.out.println("ar["+a+"]="+ar[a]);//standard  syntax for prnting array index and its value
 	}	
 	 exa2() ;
 		}

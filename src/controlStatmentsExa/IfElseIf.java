@@ -5,7 +5,7 @@ package controlStatmentsExa;
 public class IfElseIf  { // if else if also called as ladder statement
 
 	public static void main(String[] args) {
-		 int marks=20;
+		 int marks=70;
 		 if (marks<40) {
 			 System.out.println("fail");}
 		 if( marks>=40) {
@@ -18,7 +18,7 @@ public class IfElseIf  { // if else if also called as ladder statement
 		   	else {
 			System.out.println("first class");
 		}
-		   }else {	
+		   }else {
 		System.out.println("second class");
 		}
 		 

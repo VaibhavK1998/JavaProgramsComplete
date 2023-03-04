@@ -24,8 +24,11 @@ public class DataVarExa1 {
 	//here we doing addition of two byte
 	 //byte g= v+p; when we go to add two byte it show error(because we use opertor +sign is the answer 
 	// of the addition is always output int
-	int g=v+p;// it is the right syntax for add pf two bytes number then it not shows error
-	System.out.println(g);
+		// we can do this in two way
+		int z=v+p;
+		System.out.println("z :"+z);
+	byte g=(byte)(v+p);// it is the right syntax for add pf two bytes number then it not shows error
+	System.out.println("g :"+g);
 	
 	
 			

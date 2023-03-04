@@ -3,12 +3,12 @@ package impMethod;
 
 public class NonStaticToNonStatic {
 int  a=10, b=50;
- 
+ String name="rajesh";
 
 	public static void main(String[] args) {
 		System.out.println("program of to call NonStaticToNonStatic");
 		NonStaticToNonStatic obj=new NonStaticToNonStatic();
-		obj.test1();
+		obj.test2();
 		
 	
 	
@@ -30,9 +30,9 @@ int  a=10, b=50;
 public void test2() {
 System.out.println(" best of luck");
 System.out.println(" best wishesh");
-System.out.println("a="+a);
+System.out.println("a="+a);                 // way 4 nonstatic global data can we used directly also
 System.out.println("b="+b);
-
+    System.out.println("name :"+name);
     }
 //
 }

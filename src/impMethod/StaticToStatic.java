@@ -3,6 +3,7 @@ package impMethod;
 
 public class StaticToStatic {
  static int x=20, y=70;
+ static int m=99;
 
  public static void multi() {
 	int a=20,b=50;
@@ -38,7 +39,7 @@ public class StaticToStatic {
  
  public static void carrer() { 
  System.out.println(" to become a succesfull software tester");
-  
+     System.out.println("M :"+m);
      }
 
 
