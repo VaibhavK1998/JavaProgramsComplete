@@ -7,7 +7,7 @@ steps to achieve encapsulation
 1. Daclare variable of class as private
 2.provide public setter and getter method to modify and view the data
 
-note we can access and modifed this private values outside the class using getter and setter method.
+note we can access and modified this private values outside the class using getter and setter method.
  */
 
     class PrivateData {

@@ -1,7 +1,7 @@
 package basicProgram;
 
 public class Callmethod {
-	 int a=20;
+	static int a=20;
 	  int b=40;
 	 int c=a+b;
 	 int d=60;
@@ -17,7 +17,8 @@ float o=m+n;
 	  int mul=p*q;
 	  System.out.println("mul= "+mul);
     Callmethod obj1=new Callmethod();
- 
+
+	  System.out.println("a :"+a);
 System.out.println(obj1.c);
 System.out.println(obj1.g);
 System.out.println(obj1.o);

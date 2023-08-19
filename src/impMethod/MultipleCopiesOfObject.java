@@ -1,13 +1,13 @@
 package impMethod;
 
-public class MultipleCopes {
+public class MultipleCopiesOfObject {
     int x=100, y=300;   //value is non-static an its a global variable
     int sum=x+y;
 	public static void main(String[] args) {
 
-    MultipleCopes obj1 = new MultipleCopes()	;//when we call the value of non-static using object the value is store here x=50 and y=20
-    MultipleCopes obj2 = new MultipleCopes()	;//when we call the value of non-static using object the value is store here x=50 and y=20
-	MultipleCopes obj3 = new MultipleCopes()	;//when we call the value of non-static using object the value is store here x=50 and y=20
+    MultipleCopiesOfObject obj1 = new MultipleCopiesOfObject()	;//when we call the value of non-static using object the value is store here x=50 and y=20
+    MultipleCopiesOfObject obj2 = new MultipleCopiesOfObject()	;//when we call the value of non-static using object the value is store here x=50 and y=20
+	MultipleCopiesOfObject obj3 = new MultipleCopiesOfObject()	;//when we call the value of non-static using object the value is store here x=50 and y=20
 //3 copies of same data is formed by using object that why its called multicopies
     System.out.println("x= "+obj1.x);
     System.out.println("y= "+obj1.y);

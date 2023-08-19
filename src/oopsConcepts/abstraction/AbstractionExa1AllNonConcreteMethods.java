@@ -8,13 +8,10 @@ we have two ways to achive abstractions
  */
 
 
-
-
-
-
-abstract class Vehicle{
+abstract class Vehicle {
 
     abstract public void start();                  // the method which don't have body that method called abstract method.
+
     abstract public void close();
 }
 
@@ -28,7 +25,7 @@ class Car extends Vehicle {
 
     @Override
     public void start() {
-System.out.println("start the car");
+        System.out.println("start the car");
     }
 
     @Override
@@ -36,18 +33,17 @@ System.out.println("start the car");
         System.out.println("close the car");
     }
 }
- public class AbstractionExa1AllNonConcreteMethods {
+
+public class AbstractionExa1AllNonConcreteMethods {
 
 
-     public static void main(String[] args) {
+    public static void main(String[] args) {
 
-         Car c=new Car();
+        Car c = new Car();
         c.start();
         c.close();
 
-     }
-
-
+    }
 
 
 }

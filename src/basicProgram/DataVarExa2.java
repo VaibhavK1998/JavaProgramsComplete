@@ -7,7 +7,7 @@ public class DataVarExa2 {
 		int a=40;
 		int b =30;
 	
-		  System.out.println("ab");
+		  System.out.println("ab"+" "+(a+b));
 		
 		float k=11.56f;//float data type range is lies in between +-3.40282347
 		float c=a+k;		
