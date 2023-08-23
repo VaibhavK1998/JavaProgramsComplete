@@ -1,6 +1,4 @@
-package StringPrograms;
-
-import java.util.Scanner;
+package InterviewPrograms;
 
 public class FibanocciSeriesProgram {
     public static void main(String[] args) {

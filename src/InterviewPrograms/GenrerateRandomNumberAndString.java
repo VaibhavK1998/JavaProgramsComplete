@@ -1,4 +1,4 @@
-package StringPrograms;
+package InterviewPrograms;
 
 import java.util.Random;
 

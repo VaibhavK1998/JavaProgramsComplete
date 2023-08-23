@@ -1,4 +1,4 @@
-package StringPrograms;
+package InterviewPrograms;
 
 public class CountNumberOfDigitsInNumber {
     public static void main(String[] args) {
