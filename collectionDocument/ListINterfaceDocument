@@ -1,0 +1,111 @@
+Collection interface own methods.
+
+1	public boolean add(E e) -	It is used to insert an element in this collection.
+2	public boolean addAll(Collection<? extends E> c)	- It is used to insert the specified collection elements in the invoking collection.
+3	public boolean remove(Object element) -	It is used to delete an element from the collection.
+4	public boolean removeAll(Collection<?> c) -	It is used to delete all the elements of the specified collection from the invoking collection.
+5	default boolean removeIf(Predicate<? super E> filter) -	It is used to delete all the elements of the collection that satisfy the specified predicate.
+6	public boolean retainAll(Collection<?> c) -	It is used to delete all the elements of invoking collection except the specified collection.
+7	public int size() -	It returns the total number of elements in the collection.
+8	public void clear() -	It removes the total number of elements from the collection.
+9	public boolean contains(Object element)	- It is used to search an element.
+10	public boolean containsAll(Collection<?> c) -	It is used to search the specified collection in the collection.
+11	public Iterator iterator() -	It returns an iterator.
+12	public Object[] toArray() -	It converts collection into array.
+13	public <T> T[] toArray(T[] a) -	It converts collection into array. Here, the runtime type of the returned array is that of the specified array.
+14	public boolean isEmpty() -	It checks if collection is empty.
+15	default Stream<E> parallelStream() -	It returns a possibly parallel Stream with the collection as its source.
+16	default Stream<E> stream()	- It returns a sequential Stream with the collection as its source.
+17	default Spliterator<E> spliterator() -	It generates a Spliterator over the specified elements in the collection.
+18	public boolean equals(Object element) -	It matches two collections.
+19	public int hashCode() -	It returns the hash code number of the collection.
+
+List interface own methods:
+add(int index, element) -	This method is used with Java List Interface to add an element at a particular index in the list. When a single parameter is passed, it simply adds the element at the end of the list.
+addAll(int index, Collection collection) -	This method is used with List Interface in Java to add all the elements in the given collection to the list. When a single parameter is passed, it adds all the elements of the given collection at the end of the list.
+size()	- This method is used with Java List Interface to return the size of the list.
+clear()	- This method is used to remove all the elements in the list. However, the reference of the list created is still stored.
+remove(int index)	- This method removes an element from the specified index. It shifts subsequent elements(if any) to left and decreases their indexes by 1.
+remove(element)	- This method is used with Java List Interface to remove the first occurrence of the given element in the list.
+get(int index) -	This method returns elements at the specified index.
+set(int index, element)	- This method replaces elements at a given index with the new element. This function returns the element which was just replaced by a new element.
+indexOf(element)	- This method returns the first occurrence of the given element or -1 if the element is not present in the list.
+lastIndexOf(element) -	This method returns the last occurrence of the given element or -1 if the element is not present in the list.
+equals(element) -	This method is used with Java List Interface to compare the equality of the given element with the elements of the list.
+hashCode() -	This method is used with List Interface in Java to return the hashcode value of the given list.
+isEmpty() -	This method is used with Java List Interface to check if the list is empty or not. It returns true if the list is empty, else false.
+contains(element)	- This method is used with List Interface in Java to check if the list contains the given element or not. It returns true if the list contains the element.
+containsAll(Collection collection) -	This method is used with Java List Interface to check if the list contains all the collection of elements.
+sort(Comparator comp)	- This method is used with List Interface in Java to sort the elements of the list on the basis of the given comparator.
+
+ArrayList own Methods:
+add(int index, Object element) _	This method is used to insert a specific element at a specific position index in a list.
+add(Object o)	- This method is used to append a specific element to the end of a list.
+addAll(Collection C)	- This method is used to append all the elements from a specific collection to the end of the mentioned list, in such an order that the values are returned by the specified collection’s iterator.
+addAll(int index, Collection C) -	Used to insert all of the elements starting at the specified position from a specific collection into the mentioned list.
+clear()	- This method is used to remove all the elements from any list.
+clone() -	This method is used to return a shallow copy of an ArrayList in Java.
+contains (Object o)	- Returns true if this list contains the specified element.
+ensureCapacity?(int minCapacity)	- Increases the capacity of this ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument.
+forEach?(Consumer<? super E> action) -	Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception.
+get?(int index) -	Returns the element at the specified position in this list.
+indexOf(Object O)	-The index the first occurrence of a specific element is either returned or -1 in case the element is not in the list.
+isEmpty?()	- Returns true if this list contains no elements.
+lastIndexOf(Object O)	- The index of the last occurrence of a specific element is either returned or -1 in case the element is not in the list.
+listIterator?()	- Returns a list iterator over the elements in this list (in proper sequence).
+listIterator?(int index) -	Returns a list iterator over the elements in this list (in proper sequence), starting at the specified position in the list.
+remove?(int index) -	Removes the element at the specified position in this list.
+remove? (Object o)	- Removes the first occurrence of the specified element from this list, if it is present.
+removeAll?(Collection c) -	Removes from this list all of its elements that are contained in the specified collection.
+removeIf?(Predicate filter) -	Removes all of the elements of this collection that satisfy the given predicate.
+removeRange?(int fromIndex, int toIndex) -	Removes from this list all of the elements whose index is between fromIndex, inclusive, and toIndex, exclusive.
+retainAll?(Collection<?> c) -	Retains only the elements in this list that are contained in the specified collection.
+set?(int index, E element) -	Replaces the element at the specified position in this list with the specified element.
+size?() -	Returns the number of elements in this list.
+spliterator?()	- Creates a late-binding and fail-fast Spliterator over the elements in this list.
+subList?(int fromIndex, int toIndex) -	Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
+toArray()	- This method is used to return an array containing all of the elements in the list in the correct order.
+toArray(Object[] O) -	It is also used to return an array containing all of the elements in this list in the correct order same as the previous method.
+trimToSize()	 - This method is used to trim the capacity of the instance of the ArrayList to the list’s current size.
+
+Method of LinkedList
+boolean add(E e)	- It is used to append the specified element to the end of a list.
+void add(int index, E element) -	It is used to insert the specified element at the specified position index in a list.
+boolean addAll(Collection<? extends E> c) -	It is used to append all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator.
+boolean addAll(Collection<? extends E> c)	- It is used to append all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator.
+boolean addAll(int index, Collection<? extends E> c) -	It is used to append all the elements in the specified collection, starting at the specified position of the list.
+void addFirst(E e) -	It is used to insert the given element at the beginning of a list.
+void addLast(E e) -	It is used to append the given element to the end of a list.
+void clear()	- It is used to remove all the elements from a list.
+Object clone() -	It is used to return a shallow copy of an ArrayList.
+boolean contains(Object o) -	It is used to return true if a list contains a specified element.
+Iterator<E> descendingIterator() -	It is used to return an iterator over the elements in a deque in reverse sequential order.
+E element()	 - It is used to retrieve the first element of a list.
+E get(int index) -	It is used to return the element at the specified position in a list.
+E getFirst() -	It is used to return the first element in a list.
+E getLast() -	It is used to return the last element in a list.
+int indexOf(Object o)	- It is used to return the index in a list of the first occurrence of the specified element, or -1 if the list does not contain any element.
+int lastIndexOf(Object o) -	It is used to return the index in a list of the last occurrence of the specified element, or -1 if the list does not contain any element.
+ListIterator<E> listIterator(int index) -	It is used to return a list-iterator of the elements in proper sequence, starting at the specified position in the list.
+boolean offer(E e)	- It adds the specified element as the last element of a list.
+boolean offerFirst(E e) -	It inserts the specified element at the front of a list.
+boolean offerLast(E e)	 -It inserts the specified element at the end of a list.
+E peek()	- It retrieves the first element of a list
+E peekFirst() -	It retrieves the first element of a list or returns null if a list is empty.
+E peekLast() -	It retrieves the last element of a list or returns null if a list is empty.
+E poll() -	It retrieves and removes the first element of a list.
+E pollFirst()	- It retrieves and removes the first element of a list, or returns null if a list is empty.
+E pollLast() -	It retrieves and removes the last element of a list, or returns null if a list is empty.
+E pop() -	It pops an element from the stack represented by a list.
+void push(E e) -	It pushes an element onto the stack represented by a list.
+E remove()	- It is used to retrieve and removes the first element of a list.
+E remove(int index) -	It is used to remove the element at the specified position in a list.
+boolean remove(Object o)	- It is used to remove the first occurrence of the specified element in a list.
+E removeFirst() -	It removes and returns the first element from a list.
+boolean removeFirstOccurrence(Object o) -	It is used to remove the first occurrence of the specified element in a list (when traversing the list from head to tail).
+E removeLast()	- It removes and returns the last element from a list.
+boolean removeLastOccurrence(Object o) -	It removes the last occurrence of the specified element in a list (when traversing the list from head to tail).
+E set(int index, E element)	- It replaces the element at the specified position in a list with the specified element.
+Object[] toArray() -	It is used to return an array containing all the elements in a list in proper sequence (from first to the last element).
+<T> T[] toArray(T[] a) -	It returns an array containing all the elements in the proper sequence (from first to the last element); the runtime type of the returned array is that of the specified array.
+int size()	It is used to return the number of elements in a list.

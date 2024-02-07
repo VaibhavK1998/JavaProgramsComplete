@@ -1,7 +1,7 @@
 package impMethod;
 
 public class GlobalObject {
- int  a=10,b=50; //(non static global variable)
+ static int  a=10,b=50; //(non static global variable)
  
  
  
@@ -9,8 +9,7 @@ public class GlobalObject {
  public static void test1() {
 	 System.out.println(" import value from other class and change here");
 	 GlobalObject.obj2.addition();;//here we import method from other class (staticToStatic) class
-	 System.out.println("x= "+StaticToStatic.x);	 
-	 
+	 System.out.println("x= "+StaticToStatic.x);
 	 }
 
 static GlobalObject obj1=new GlobalObject();     // (global static object) global object its accessible for all method
@@ -20,6 +19,7 @@ static StaticToStatic obj2=new StaticToStatic();// we can import other class als
 
       public static void main(String[] args) {
 		System.out.println("program of called method by using global object");
+
        test2();
      	}
 

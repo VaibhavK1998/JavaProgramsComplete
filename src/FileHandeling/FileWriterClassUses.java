@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class FileWriterClassUses {
     public static void main(String[] args) throws IOException {
         //fileCreateTest();
-        // fileWriteTest();
         //fileInformation();
+        fileWriteTest();
         FileReadTest();
 
     }
@@ -19,7 +19,7 @@ public class FileWriterClassUses {
     public static void fileWriteTest() {
         try {
             FileWriter filewriter = new FileWriter("Files/wordFile4.txt");
-            filewriter.write("employee details file/n ");// this method used to write in file
+            filewriter.write("employee details file/n wdnfbfjbdnmfdsn n dvdjsn ");// this method used to write in file
             filewriter.flush();// manadatory otherwise it will not write in file
         } catch (IOException e) {
             e.printStackTrace();

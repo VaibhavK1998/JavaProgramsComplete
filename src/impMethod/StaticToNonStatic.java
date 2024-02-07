@@ -1,7 +1,7 @@
 package impMethod;
 
 public class StaticToNonStatic {
-int x=10, y=20;
+static int x=10, y=20;
 	public static void main(String[] args) {
 
 		StaticToNonStatic obj=new StaticToNonStatic();     //here called by static and called received by non static variable/method method
