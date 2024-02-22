@@ -39,6 +39,7 @@ public class VectorClassUse {
         System.out.println("first element of vector: "+l1.firstElement());
         System.out.println("last element of vector: "+l1.lastElement());
         System.out.println("l1 elements" + l1);
+        l1.addElement(11);
         l1.removeElement(90);
         l1.removeElementAt(3);
         l1.setElementAt(155,0);
