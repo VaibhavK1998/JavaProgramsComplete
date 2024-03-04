@@ -15,6 +15,7 @@ abstract class Vehicle {
     abstract public void close();
 }
 
+
 /*
  if any class inherit the abstract class then all properties of abstract class come here.
  and the inherited class become abstract. to overcome those we need to implement those unimplemented method here

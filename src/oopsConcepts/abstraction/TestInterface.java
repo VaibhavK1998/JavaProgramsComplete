@@ -82,7 +82,7 @@ class importer implements InterfaceExa1 {
 public class TestInterface {
 
     public static void main(String[] args) {
-
+        InterfaceExa1.test7();
         importer b = new importer();
         b.test4();
         b.test3();
