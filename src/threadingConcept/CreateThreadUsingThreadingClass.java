@@ -1,6 +1,4 @@
-package thradingConcept;
-
-import java.awt.*;
+package threadingConcept;
 
 public class CreateThreadUsingThreadingClass extends Thread { // step 1 extend Thread class
     @Override
@@ -10,7 +8,7 @@ public class CreateThreadUsingThreadingClass extends Thread { // step 1 extend T
     public static void main(String[] args) {
         CreateThreadUsingThreadingClass c1 = new CreateThreadUsingThreadingClass();// step 3 create object of class
         c1.start();// step 4 call start method
-        c1.start();
+
 
     }
 

@@ -1,4 +1,4 @@
-package thradingConcept;
+package threadingConcept;
 
 public class CreateThreadUsingRunnableInterface implements Runnable {
 

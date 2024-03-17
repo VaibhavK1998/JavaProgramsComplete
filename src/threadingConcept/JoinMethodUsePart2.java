@@ -1,4 +1,4 @@
-package thradingConcept;
+package threadingConcept;
 
 class Box extends Thread {
     @Override

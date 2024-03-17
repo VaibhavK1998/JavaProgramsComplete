@@ -1,18 +1,4 @@
-package thradingConcept;
-
-class Bollywood extends Thread {
-    @Override
-    public void run() {
-
-    }
-}
-
-class Tollywood extends Thread {
-    @Override
-    public void run() {
-
-    }
-}
+package threadingConcept;
 
 class Hollywood extends Thread {
     @Override
@@ -20,6 +6,7 @@ class Hollywood extends Thread {
 
         try {
             for (int i = 0; i < 5; i++) {
+                Thread.currentThread().interrupt();
                 System.out.println("value of i :" + i);
                 System.out.println("isInteruppted method use :" + Thread.currentThread().isInterrupted());
                 System.out.println("interrupted method used :" + Thread.interrupted());
@@ -39,7 +26,7 @@ public class InteruptedMethodUse {
     public static void main(String[] args) {
         Hollywood hwd = new Hollywood();
         hwd.start();
-        hwd.interrupt();// this method use to interrupt the thread.
+        // hwd.interrupt();// this method use to interrupt the thread.
 
     }
 }

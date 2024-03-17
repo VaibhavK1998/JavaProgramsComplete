@@ -1,4 +1,4 @@
-package thradingConcept;
+package threadingConcept;
 
 
 class Student extends Thread {

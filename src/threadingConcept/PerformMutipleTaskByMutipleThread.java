@@ -1,4 +1,4 @@
-package thradingConcept;
+package threadingConcept;
 
 
 class Audio implements Runnable {
@@ -21,7 +21,7 @@ class Timer implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("video is running");
+        System.out.println("timer is running");
     }
 }
 
@@ -32,15 +32,14 @@ public class PerformMutipleTaskByMutipleThread {
         Video video = new Video();
         Timer timer = new Timer();
 
-        Thread audioThread = new Thread(audio,"thread 1");
-        Thread videoThread = new Thread(video,"Thread 2");
-        Thread timerThread = new Thread(timer,"Thread 3");
+        Thread audioThread = new Thread(audio, "thread 1");
+        Thread videoThread = new Thread(video, "Thread 2");
+        Thread timerThread = new Thread(timer, "Thread 3");
         audioThread.start();
-        System.out.print(audioThread.getName()); System.out.println(": "+audioThread.getId());
+        System.out.println(" audio thread id: " + audioThread.getId());
         videoThread.start();
-        System.out.print(videoThread.getName()); System.out.println(": "+videoThread.getId());
+        System.out.println(" video thread id: " + videoThread.getId());
         timerThread.start();
-
-
+        System.out.println("timer thread id: " + timerThread.getId());
     }
 }

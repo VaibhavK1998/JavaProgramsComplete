@@ -1,4 +1,4 @@
-package thradingConcept;
+package threadingConcept;
 
 class Calculation extends Thread {
     @Override
