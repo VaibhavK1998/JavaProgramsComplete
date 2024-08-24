@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SumOfDigitsOfNumber {
     public static void main(String[] args) {
-sumOfDigits();
+        sumOfDigits();
     }
 
     public static void sumOfDigits() {

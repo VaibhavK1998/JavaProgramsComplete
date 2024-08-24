@@ -1,6 +1,7 @@
 package CollectionWork;
 
 import javax.swing.*;
+import java.util.Comparator;
 import java.util.stream.Stream;
 
 interface Calculation {
@@ -29,7 +30,5 @@ public class LambdaExpressionUse2 {
         LenghtCalculation lenghtCalculation = (value) -> value.length();
         int StringLength = lenghtCalculation.lenth("rajeshwar");
         System.out.println("lenghth of the string is: " + StringLength);
-
-
     }
 }

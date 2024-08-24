@@ -1,12 +1,13 @@
 package CollectionWork;
 
+import java.util.Deque;
 import java.util.LinkedList;
 
 public class LinkedListUse {
     /*
     Linked List is a part of the Collection framework present in java.util package.
     This class is an implementation of the LinkedList data structure which is a linear data structure where
-    the elements are not stored in contiguous locations and every element is a separate object with a data part andaddress part.
+    the elements are not stored in contiguous locations and every element is a separate object with a data part and address part.
     The elements are linked using pointers and addresses. Each element is known as a node.
 
 Java LinkedList class can contain duplicate elements.
@@ -33,13 +34,15 @@ Memory overhead: LinkedList requires more memory than ArrayList because each ele
 
     public static void checkLinkedList() {
         LinkedList l1 = new LinkedList<>();
+        l1.offerFirst(10);
+        l1.offerLast(1000);
         l1.add("rakesh");
         l1.add("suresh");
         l1.add("morsl");
         l1.add(90);
         l1.add(null);
         l1.add(null);
-
+        System.out.println("array:" + l1);
         l1.add(22); // It is used to append the specified element at the end of a list.
         l1.add(5, 44);// It is used to insert the specified element at the specified position in a list.
         //l1.addAll(list1);// It is used to append all of the elements in the specified collection to the end of this list,
@@ -61,8 +64,8 @@ Memory overhead: LinkedList requires more memory than ArrayList because each ele
         l1.addFirst("gajodhar");
         l1.addLast("shridhar");
         System.out.println(l1);
-        System.out.println("first element od list:"+l1.getFirst());
-        System.out.println("Last element of list:"+l1.getLast());
+        System.out.println("first element od list:" + l1.getFirst());
+        System.out.println("Last element of list:" + l1.getLast());
         l1.removeFirst();
         l1.removeLast();
         System.out.println(l1);

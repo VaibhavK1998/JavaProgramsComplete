@@ -1,10 +1,13 @@
 package InterviewPrograms;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class CheckNumberPrimeOrNot {
     public static void main(String[] args) {
-        numberPrimeOrNot();
+        //numberPrimeOrNot();
+        //numberCheck();
+        reminder();
     }
 
     public static void numberPrimeOrNot() {
@@ -27,5 +30,18 @@ public class CheckNumberPrimeOrNot {
             System.out.println("not a prime number");
         }
 
+    }
+
+    public static void numberCheck(){
+        int num=16;
+        if(num%1==0&&num%num==1){
+            System.out.println("number is prim");
+        }else{
+            System.out.println("number is prim");
+        }
+    }
+
+    public static void reminder(){
+        System.out.println(10101%10);
     }
 }

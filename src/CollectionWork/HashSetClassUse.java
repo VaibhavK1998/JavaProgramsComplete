@@ -21,11 +21,14 @@ The initial default capacity of HashSet is 16, and the load factor is 0.75.
     }
 
     public static void hashSetMethodUse() {
+        String name="raj";
         HashSet hs1 = new HashSet<>();
         hs1.add("10");
         hs1.add("10");
         hs1.add(100);
         hs1.add("madan");
+        hs1.add("null");
+        System.out.println("hashset object hashcode:"+hs1.hashCode());
         System.out.println("print an set : " + hs1);
         hs1.clear();
         System.out.println("value is present :" + hs1.contains(100));

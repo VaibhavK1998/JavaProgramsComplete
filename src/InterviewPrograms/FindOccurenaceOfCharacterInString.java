@@ -17,17 +17,18 @@ public class FindOccurenaceOfCharacterInString {
         int count = mainLength - secondLength;
         System.out.println("count: " + count);
     }
+
     public static void findOccurenceOfCharacterWay2() {
         String name = "Ranshrnrt";
-        Map<Character,Integer> m1=new HashMap<>();
-        char ar[]=name.toCharArray();
-        for(char val:ar){
-            if(m1.containsKey(val)){
-                m1.put(val,m1.get(val)+1);
-            }else{
-                m1.put(val,1);
+        Map<Character, Integer> m1 = new HashMap<>();
+        char ar[] = name.toCharArray();
+        for (char val : ar) {
+            if (m1.containsKey(val)) {
+                m1.put(val, m1.get(val) + 1);
+            } else {
+                m1.put(val, 1);
             }
         }
-        System.out.println(name+" "+m1);
+        System.out.println(name + " " + m1);
     }
 }

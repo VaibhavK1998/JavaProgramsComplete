@@ -2,8 +2,8 @@ package InterviewPrograms;
 
 public class ReverseEachWordInString {
     public static void main(String[] args) {
-       // reverseEachWordInStringWay1();
-        reverseEachWordInStringWay2();
+       reverseEachWordInStringWay1();
+        //reverseEachWordInStringWay2();
     }
 
     public static void reverseEachWordInStringWay1() {

@@ -18,7 +18,6 @@ public class LinkedHashMapClassUse {
         map.put(2,990);
         map.put(null,10);
         map.put(6,2030);
-
         System.out.println(map);
 
     }

@@ -28,18 +28,18 @@ public class FindDuplicateElementsInArray {
 
     public static void findDuplicateElementsWay2() {
         // using HashSet
-        String ar[] = {"Raj", "taran", "Mahesh","Raj","Mahesh"};
+        String ar[] = {"Raj", "taran", "Mahesh", "Raj", "Mahesh"};
         HashSet<String> hs = new HashSet<>();
         boolean status;
-        boolean flag=false;
+        boolean flag = false;
         for (String value : ar) {
             status = hs.add(value);
             if (status == false) {
-                System.out.println("Duplicate value:"+value);
-                flag=true;
+                System.out.println("Duplicate value:" + value);
+                flag = true;
             }
         }
-        if(flag==false){
+        if (flag == false) {
             System.out.println("Duplicate not found");
         }
     }

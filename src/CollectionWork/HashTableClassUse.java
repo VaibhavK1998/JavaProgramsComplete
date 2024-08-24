@@ -14,14 +14,13 @@ public class HashTableClassUse {
         hs.put(102,"manoj");
         hs.put(108,"rakesh");
         hs.put(117,"primal");
+        hs.put(119,"vaibhav");
         System.out.println(hs);
-
         String name1="ab";
         String name2="bb";
         String name3="cb";
         String name4="dd";
         String name5="kl";
-
         // hashing technique tom store value in map or in hashtable
         System.out.println("hashcode value: 1"+name1.hashCode()); // hashvalue=1
         System.out.println("hashcode value: 2"+name2.hashCode());// hashvalue=0

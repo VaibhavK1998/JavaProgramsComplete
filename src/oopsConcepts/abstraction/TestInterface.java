@@ -29,7 +29,7 @@ interface InterfaceExa1 {
         System.out.println("test 6 private method of interface");
     }
 
-    static void test7() {         // static method allowed but it should have interface
+  public static void test7() {         // static method allowed but it should have interface
         System.out.println("test 7 static method of interface");
     }
 
@@ -42,7 +42,7 @@ interface InterfaceExa2 {
     void test8();
 }
 
-class importer implements InterfaceExa1 {
+class importer implements InterfaceExa1,InterfaceExa2 {
 
 
     @Override
@@ -84,6 +84,7 @@ public class TestInterface {
     public static void main(String[] args) {
         InterfaceExa1.test7();
         importer b = new importer();
+        b.test8();
         b.test4();
         b.test3();
         System.out.println("age : " + importer.age); // access the fields from interface

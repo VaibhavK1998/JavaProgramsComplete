@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class GenrerateRandomNumberAndString {
     public static void main(String[] args) {
-        //generateRandomNumber();
-        generateRandomNumberByMathClass();
+        generateRandomNumber();
+       // generateRandomNumberByMathClass();
     }
 
     public static void generateRandomNumber() {
@@ -21,7 +21,6 @@ public class GenrerateRandomNumberAndString {
 
     public static void generateRandomString() {
         Random ran = new Random();
-
         System.out.println("RanNumber");
     }
 }

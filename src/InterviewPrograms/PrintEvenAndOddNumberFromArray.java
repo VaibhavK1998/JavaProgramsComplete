@@ -24,7 +24,8 @@ public class PrintEvenAndOddNumberFromArray {
         System.out.println("even number : " + evenNumber);
         System.out.println("odd number : " + oddNumber);
     }
-    public static void printEvenOddNumberWay2(){
+
+    public static void printEvenOddNumberWay2() {
         int ar[] = {10, 11, 29, 18, 20, 50, 40};
 
         for (int number : ar) {

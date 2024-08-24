@@ -10,6 +10,7 @@ public class StringMethod {
         System.out.println("length of name2: " + nameLength);
 
         String nameLowercase = name2.toLowerCase();// method 2 toLowerCase(); return the new string which has all the lowercase character
+        System.out.println("name2: " + name2);
         System.out.println("nameLowercase: " + nameLowercase);
 
         String nameInUppercase = name2.toUpperCase();// method 3 toUpperCase(); return the new string which has uppercase character

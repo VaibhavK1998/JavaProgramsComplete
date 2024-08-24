@@ -16,16 +16,17 @@ public class StackClassUse {
         s1.push("mahesh");
         s1.add("manoj");
 
-       Iterator itr= s1.iterator();
-       while(itr.hasNext()){
-           System.out.println("elment retrive: "+s1.pop());
-       }
-
         System.out.println(s1);
-        System.out.println("element of pop method remove:"+s1.pop());// remove the object at the top of this stack and return that object as the value of this function.
+        Iterator itr = s1.iterator();
+        while (itr.hasNext()) {
+            System.out.println("elment retrive: " + itr.next());
+        }
+        s1.push("mangesh");
         System.out.println(s1);
-        System.out.println("peek method recived element:"+s1.peek());// looks at the object at the top of the stack without removing from the stack
+        System.out.println("element of pop method remove:" + s1.pop());// remove the object at the top of this stack and return that object as the value of this function.
+        System.out.println(s1);
+        System.out.println("peek method recived element:" + s1.peek());// looks at the object at the top of the stack without removing from the stack
 
-        System.out.println("search method :"+s1.search(90));// return the position of object in stack
+        System.out.println("search method :" + s1.search(90));// return the position of object in stack
     }
 }

@@ -9,7 +9,7 @@ public class StreamApiPract1 {
     public static void main(String[] args) {
 
         testWithStreamApi();
-        testWithoutStreamApi();
+       // testWithoutStreamApi();
     }
 
     public static void testWithStreamApi() {
@@ -19,8 +19,6 @@ public class StreamApiPract1 {
         //Stream<Integer> stream = al.stream();
         List evenNumberList = al.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());// note the expression we written in filter() we called them predicate.
         System.out.println("even number list with streamApi :" + evenNumberList);
-
-
         List<String> al2 = List.of("mahesh","bharati");
         al2.stream().forEach(e-> {
            System.out.println("al2 elements:"+e);

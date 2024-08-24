@@ -23,4 +23,16 @@ public class FibanocciSeriesProgram {
 
     }
 
+    public static void fibanacciAttempt2(){
+        int first=0;
+        int second=1;
+
+        for(int a=2;a<5;a++){
+            int third=first+second;
+            System.out.println();
+        }
+
+    }
+
+
 }

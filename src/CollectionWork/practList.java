@@ -10,7 +10,6 @@ public class practList {
         a1.add("ok");
         a1.add("b1");
         a1.add("c1");
-
         for (String name : a1) {
             System.out.println(name);
         }

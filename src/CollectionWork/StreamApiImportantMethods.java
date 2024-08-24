@@ -37,13 +37,14 @@ public class StreamApiImportantMethods {
         System.out.println("list 3 :" + list3);
 
         list1.stream().sorted().forEach(System.out::println);// method 3 sorted methos use to sorted a stream
-
         Integer minValue = list1.stream().min((x, y) -> x.compareTo(y)).get();// method4 min()
         System.out.println("min value :" + minValue);
 
         Integer maxValue = list1.stream().max((x, y) -> x.compareTo(y)).get();
         System.out.println("max value :" + maxValue);
 
+        List<Integer> l4=list1.stream().sorted().collect(Collectors.toList());
+        System.out.println("l4:"+l4);
 
         Stream<Integer> stream1 = list1.stream();
         Stream<Integer> stream2 = listv2.stream();

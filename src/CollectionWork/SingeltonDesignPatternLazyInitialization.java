@@ -17,4 +17,7 @@ public class SingeltonDesignPatternLazyInitialization {
         return singeltonDesignPatternLazyInitialization;
     }
 
+    public static void test() {
+        System.out.println("test method");
+    }
 }

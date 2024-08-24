@@ -19,9 +19,7 @@ public void listImplement(){
     list2.add(22);
     list2.add(45);
 
-
     Iterator<Integer> iterator = list2.iterator(); // we can retrive value from list using iterator
-
     while(iterator.hasNext()){
         System.out.println(iterator.next());
     }
